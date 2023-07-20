@@ -29,6 +29,7 @@ header {
 
 @media (max-width:576px) {
     header {
-        width: 340px;
+        position: fixed;
+        width: 590px;
     }
 }

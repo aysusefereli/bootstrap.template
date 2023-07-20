@@ -88,16 +88,17 @@
 
 @media (max-width:576px) {
     .firstsection {
-        width: 340px;
-        height: 560px;
+        width: 590px;
+        height: 670px;
 
         .container {
             padding-top: 50px;
 
             .computer {
-                height: 220px;
-                width: 260px;
+                height: 420px;
+                width: 460px;
                 margin-left: 30px;
+                margin-top: 30px;
             }
     
             .better_solutions {
@@ -113,7 +114,7 @@
     
                 .play_button {
                     img {
-                        margin-left: 30px;
+                        margin-left: 150px;
                     }
                 }
             }

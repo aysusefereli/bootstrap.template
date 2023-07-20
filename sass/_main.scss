@@ -205,84 +205,61 @@
 
 @media (max-width:576px) {
     .secondsection {
-        width: 340px;
+        width: 590px;
 
         .container {
-            margin-left: 30px;
+            margin-left: 80px;
         }
     }
 
     .thirdsection {
-        width: 340px;
+        width: 590px;
         padding: 5px;
-        font-size: 13px;
+        font-size: 15px;
 
         .whiteline {
             position: absolute;
-            left: 120px;
+            left: 230px;
             top: 100px;
         }
         .blueline {
             position: absolute;
-            left: 160px;
+            left: 270px;
             top: 100px;
         }
     }
 
     .fourthsection {
-        width: 340px;
+        width: 590px;
         position: relative;
         .container {
 
             .photo {
-                width: 210px;
-                height: 190px;
+                width: 450px;
+                height: 490px;
                 margin:0 0 0 70px;
             }
 
             .content {
-                width: 300px;
-                padding-left: 10px;
-
-                h3 {
-                    font-size: 30px;
-                }
-
-                 p {
-                    font-size: 12px;
-                 }
+                padding-left: 15px;
             }
     
             .card {
                 padding-left: 8px;
-                width: 327px;
-    
-                p {
-                    font-size: 13px; 
-                    position: absolute;
-                    left: 8px;
-                    top: 5spx;
-                }
 
                 .firsticon {
                     position: absolute;
-                    left: 100px;
+                    top: 30px;
                 }
 
                 .secondicon {
                     position: absolute;
-                    left: 80px; 
-                    top: 20px;     
+                    top: 30px;     
                 }
 
                 .thirdicon {
                     position: absolute;
-                    left: 60px;
-                    top: 20px;     
-                }
-
-                .card-body {
-                    font-size: 13px;
+                    top: 30px;     
                 }
             }
         }

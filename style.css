@@ -24,7 +24,8 @@ header .container .get_started:hover {
 
 @media (max-width: 576px) {
   header {
-    width: 340px;
+    position: fixed;
+    width: 590px;
   }
 }
 .firstsection {
@@ -94,16 +95,17 @@ header .container .get_started:hover {
 }
 @media (max-width: 576px) {
   .firstsection {
-    width: 340px;
-    height: 560px;
+    width: 590px;
+    height: 670px;
   }
   .firstsection .container {
     padding-top: 50px;
   }
   .firstsection .container .computer {
-    height: 220px;
-    width: 260px;
+    height: 420px;
+    width: 460px;
     margin-left: 30px;
+    margin-top: 30px;
   }
   .firstsection .container .better_solutions h1 {
     font-size: 30px;
@@ -114,7 +116,7 @@ header .container .get_started:hover {
     font-size: 18px;
   }
   .firstsection .container .better_solutions .play_button img {
-    margin-left: 30px;
+    margin-left: 150px;
   }
 }
 .secondsection {
@@ -280,70 +282,51 @@ header .container .get_started:hover {
 }
 @media (max-width: 576px) {
   .secondsection {
-    width: 340px;
+    width: 590px;
   }
   .secondsection .container {
-    margin-left: 30px;
+    margin-left: 80px;
   }
   .thirdsection {
-    width: 340px;
+    width: 590px;
     padding: 5px;
-    font-size: 13px;
+    font-size: 15px;
   }
   .thirdsection .whiteline {
     position: absolute;
-    left: 120px;
+    left: 230px;
     top: 100px;
   }
   .thirdsection .blueline {
     position: absolute;
-    left: 160px;
+    left: 270px;
     top: 100px;
   }
   .fourthsection {
-    width: 340px;
+    width: 590px;
     position: relative;
   }
   .fourthsection .container .photo {
-    width: 210px;
-    height: 190px;
+    width: 450px;
+    height: 490px;
     margin: 0 0 0 70px;
   }
   .fourthsection .container .content {
-    width: 300px;
-    padding-left: 10px;
-  }
-  .fourthsection .container .content h3 {
-    font-size: 30px;
-  }
-  .fourthsection .container .content p {
-    font-size: 12px;
+    padding-left: 15px;
   }
   .fourthsection .container .card {
     padding-left: 8px;
-    width: 327px;
-  }
-  .fourthsection .container .card p {
-    font-size: 13px;
-    position: absolute;
-    left: 8px;
-    top: 5spx;
   }
   .fourthsection .container .card .firsticon {
     position: absolute;
-    left: 100px;
+    top: 30px;
   }
   .fourthsection .container .card .secondicon {
     position: absolute;
-    left: 80px;
-    top: 20px;
+    top: 30px;
   }
   .fourthsection .container .card .thirdicon {
     position: absolute;
-    left: 60px;
-    top: 20px;
-  }
-  .fourthsection .container .card .card-body {
-    font-size: 13px;
+    top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
