@@ -1,0 +1,243 @@
+.secondsection {
+    background-color: #f3f5fa;
+    height: 100px;
+    img {
+        width: 90px;
+        height: 30px;
+        margin-top: 30px;
+    }
+}
+
+.thirdsection {
+    margin-bottom: 80px;
+    position: relative;
+    
+    h2 {
+        font-size: 32px;
+        font-weight: bold;
+        margin: 50px 0 40px 0;
+        padding-bottom: 20px;
+        color: #37517e;
+        text-align: center;
+    }
+
+    .whiteline {
+        width: 120px;
+        height: 1px;
+        background: #ddd;
+        position: absolute;
+        top: 40px;
+        left: 612px;
+    }
+
+    .blueline {
+        width: 40px;
+        height: 3px;
+        background: #47b2e4;
+        position: absolute;
+        top: 39px;
+        left: 650px;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 1px;
+        line-height: 2.1;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+
+    .learnmore {
+        p {
+            margin-bottom: 30px;
+        } 
+
+        a {
+            border: 2px solid #47b2e4;
+            border-radius: 4px;
+            padding: 8px 30px;
+            text-decoration: none;
+            color: #47b2e4;
+            font-weight: 500;
+            margin: 40px 0 0 0;
+    
+            &:hover {
+                background-color: #42a5d2;
+                color: white;
+            }
+        }
+    }
+
+}
+
+.fourthsection {
+    background-color: #f3f5fa;
+
+    .container {
+        padding: 120px 0 120px 0;
+
+        .content {
+            width: 540px;
+
+            h3 {
+                font-weight: 400;
+                font-size: 34px;
+                color: #37517e;
+
+                span {
+                    font-weight: 700;
+                }
+            }
+
+            p {
+                font-size: 15px;
+                color: #848484;
+            }
+        }
+
+        .card {
+            padding-bottom: 13px;
+            border: none;
+            background-color: #f3f5fa;
+
+            h5 {
+                button {
+                    text-decoration: none;
+                    font-weight: 500;
+                    color: black;
+
+                    &:hover {
+                        color: #47b2e4;
+                    }
+
+                    span {
+                        color: #47b2e4;
+                        font-weight: 600;
+                        font-size: 18px;
+                        padding-right: 10px;
+                    }
+
+                    .firsticon {
+                        padding-left: 200px;
+
+                        &:hover {
+                            color: #47b2e4;
+                        }
+                    }
+
+                    .secondicon {
+                        padding-left: 222px;
+
+                        &:hover {
+                            color: #47b2e4;
+                        }
+                    }
+
+                    .thirdicon {
+                        padding-left: 238px;
+
+                        &:hover {
+                            color: #47b2e4;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .photo {
+            width: 560px;
+            height: 415px;
+        }
+    }
+}
+
+@media (max-width:768px) {
+    .secondsection {
+        height: 200px;
+
+        .container {
+            margin-left: 160px;
+        }
+    }
+
+    .thirdsection {
+
+        .whiteline {
+            position: absolute;
+            left: 310px;
+        }
+        .blueline {
+            position: absolute;
+            left: 350px;
+        }
+        padding: 0 40px 0 40px;
+    }
+
+    .fourthsection {
+        .fourthpage {
+            display: flex;
+            flex-direction: column-reverse;
+
+            h5 {
+                button {
+                    .firsticon {
+                        position: absolute;
+                        left: 300px;
+                    }
+
+                    .secondicon {
+                        position: absolute;
+                        left: 280px;
+                    }
+
+                    .thirdicon {
+                        position: absolute;
+                        left: 265px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:576px) {
+    .secondsection {
+        width: 640px;
+
+        .container {
+            margin-left: 100px;
+        }
+    }
+
+    .thirdsection {
+        width: 640px;
+        padding: 5px;
+        font-size: 18px;
+
+        .whiteline {
+            position: absolute;
+            left: 260px;
+            top: 100px;
+        }
+        .blueline {
+            position: absolute;
+            left: 300px;
+            top: 100px;
+        }
+    }
+
+    .fourthsection {
+        width: 640px;
+
+        .photo {
+            padding-left: 100px;
+        }
+
+        .content {
+            padding-left: 25px;
+        }
+    }
+}

@@ -1,0 +1,312 @@
+header {
+  background-color: #37517e;
+  height: 80px;
+}
+header .container {
+  padding-top: 5px;
+}
+header .container .navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+header .container .get_started {
+  border: 2px solid #47b2e4;
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 8px 20px;
+  text-decoration: none;
+  font-weight: 500;
+}
+header .container .get_started:hover {
+  background-color: #47b2e4;
+}
+
+@media (max-width: 576px) {
+  header {
+    width: 640px;
+  }
+}
+.firstsection {
+  background-color: #37517e;
+}
+.firstsection h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin: 0 0 10px 0;
+}
+.firstsection h2 {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 24px;
+}
+.firstsection .play_button {
+  margin: 30px 0 60px 0;
+}
+.firstsection .play_button .get_started {
+  border: 2px solid #47b2e4;
+  border-radius: 50px;
+  padding: 8px 20px;
+  margin-right: 40px;
+  text-decoration: none;
+  background-color: #47b2e4;
+}
+.firstsection .play_button .get_started:hover {
+  background-color: #42a5d2;
+}
+.firstsection .play_button a {
+  text-decoration: none;
+}
+.firstsection .play_button a img {
+  position: absolute;
+  left: 155px;
+}
+.firstsection .computer {
+  width: 550px;
+  height: 450px;
+}
+
+@media (max-width: 768px) {
+  .firstsection .arsha {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .firstsection .arsha .computer {
+    height: 230px;
+    width: 280px;
+    margin-left: 100px;
+  }
+  .firstsection .arsha .better_solutions h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 1px;
+  }
+  .firstsection .arsha .better_solutions h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+  .firstsection .arsha .better_solutions .play_button {
+    text-align: center;
+  }
+  .firstsection .arsha .better_solutions .play_button img {
+    margin-left: 120px;
+  }
+}
+@media (max-width: 576px) {
+  .firstsection {
+    width: 640px;
+    height: 660px;
+  }
+  .firstsection .container {
+    padding-top: 50px;
+  }
+  .firstsection .container .computer {
+    height: 420px;
+    width: 460px;
+    margin-left: 60px;
+  }
+  .firstsection .container .better_solutions h1 {
+    font-size: 30px;
+    margin-bottom: 5px;
+    line-height: 1.2;
+  }
+  .firstsection .container .better_solutions h2 {
+    font-size: 20px;
+  }
+  .firstsection .container .better_solutions .play_button img {
+    margin-left: 175px;
+  }
+}
+.secondsection {
+  background-color: #f3f5fa;
+  height: 100px;
+}
+.secondsection img {
+  width: 90px;
+  height: 30px;
+  margin-top: 30px;
+}
+
+.thirdsection {
+  margin-bottom: 80px;
+  position: relative;
+}
+.thirdsection h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 50px 0 40px 0;
+  padding-bottom: 20px;
+  color: #37517e;
+  text-align: center;
+}
+.thirdsection .whiteline {
+  width: 120px;
+  height: 1px;
+  background: #ddd;
+  position: absolute;
+  top: 40px;
+  left: 612px;
+}
+.thirdsection .blueline {
+  width: 40px;
+  height: 3px;
+  background: #47b2e4;
+  position: absolute;
+  top: 39px;
+  left: 650px;
+}
+.thirdsection ul {
+  list-style: none;
+  padding-left: 1px;
+  line-height: 2.1;
+}
+.thirdsection p {
+  line-height: 1.6;
+}
+.thirdsection .learnmore p {
+  margin-bottom: 30px;
+}
+.thirdsection .learnmore a {
+  border: 2px solid #47b2e4;
+  border-radius: 4px;
+  padding: 8px 30px;
+  text-decoration: none;
+  color: #47b2e4;
+  font-weight: 500;
+  margin: 40px 0 0 0;
+}
+.thirdsection .learnmore a:hover {
+  background-color: #42a5d2;
+  color: white;
+}
+
+.fourthsection {
+  background-color: #f3f5fa;
+}
+.fourthsection .container {
+  padding: 120px 0 120px 0;
+}
+.fourthsection .container .content {
+  width: 540px;
+}
+.fourthsection .container .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+}
+.fourthsection .container .content h3 span {
+  font-weight: 700;
+}
+.fourthsection .container .content p {
+  font-size: 15px;
+  color: #848484;
+}
+.fourthsection .container .card {
+  padding-bottom: 13px;
+  border: none;
+  background-color: #f3f5fa;
+}
+.fourthsection .container .card h5 button {
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.fourthsection .container .card h5 button:hover {
+  color: #47b2e4;
+}
+.fourthsection .container .card h5 button span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+.fourthsection .container .card h5 button .firsticon {
+  padding-left: 200px;
+}
+.fourthsection .container .card h5 button .firsticon:hover {
+  color: #47b2e4;
+}
+.fourthsection .container .card h5 button .secondicon {
+  padding-left: 222px;
+}
+.fourthsection .container .card h5 button .secondicon:hover {
+  color: #47b2e4;
+}
+.fourthsection .container .card h5 button .thirdicon {
+  padding-left: 238px;
+}
+.fourthsection .container .card h5 button .thirdicon:hover {
+  color: #47b2e4;
+}
+.fourthsection .container .photo {
+  width: 560px;
+  height: 415px;
+}
+
+@media (max-width: 768px) {
+  .secondsection {
+    height: 200px;
+  }
+  .secondsection .container {
+    margin-left: 160px;
+  }
+  .thirdsection {
+    padding: 0 40px 0 40px;
+  }
+  .thirdsection .whiteline {
+    position: absolute;
+    left: 310px;
+  }
+  .thirdsection .blueline {
+    position: absolute;
+    left: 350px;
+  }
+  .fourthsection .fourthpage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .fourthsection .fourthpage h5 button .firsticon {
+    position: absolute;
+    left: 300px;
+  }
+  .fourthsection .fourthpage h5 button .secondicon {
+    position: absolute;
+    left: 280px;
+  }
+  .fourthsection .fourthpage h5 button .thirdicon {
+    position: absolute;
+    left: 265px;
+  }
+}
+@media (max-width: 576px) {
+  .secondsection {
+    width: 640px;
+  }
+  .secondsection .container {
+    margin-left: 100px;
+  }
+  .thirdsection {
+    width: 640px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  .thirdsection .whiteline {
+    position: absolute;
+    left: 260px;
+    top: 100px;
+  }
+  .thirdsection .blueline {
+    position: absolute;
+    left: 300px;
+    top: 100px;
+  }
+  .fourthsection {
+    width: 640px;
+  }
+  .fourthsection .photo {
+    padding-left: 100px;
+  }
+  .fourthsection .content {
+    padding-left: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
