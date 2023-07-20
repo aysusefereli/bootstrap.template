@@ -24,7 +24,7 @@ header .container .get_started:hover {
 
 @media (max-width: 576px) {
   header {
-    width: 640px;
+    width: 340px;
   }
 }
 .firstsection {
@@ -94,16 +94,16 @@ header .container .get_started:hover {
 }
 @media (max-width: 576px) {
   .firstsection {
-    width: 640px;
-    height: 660px;
+    width: 340px;
+    height: 560px;
   }
   .firstsection .container {
     padding-top: 50px;
   }
   .firstsection .container .computer {
-    height: 420px;
-    width: 460px;
-    margin-left: 60px;
+    height: 220px;
+    width: 260px;
+    margin-left: 30px;
   }
   .firstsection .container .better_solutions h1 {
     font-size: 30px;
@@ -111,10 +111,10 @@ header .container .get_started:hover {
     line-height: 1.2;
   }
   .firstsection .container .better_solutions h2 {
-    font-size: 20px;
+    font-size: 18px;
   }
   .firstsection .container .better_solutions .play_button img {
-    margin-left: 175px;
+    margin-left: 30px;
   }
 }
 .secondsection {
@@ -280,33 +280,70 @@ header .container .get_started:hover {
 }
 @media (max-width: 576px) {
   .secondsection {
-    width: 640px;
+    width: 340px;
   }
   .secondsection .container {
-    margin-left: 100px;
+    margin-left: 30px;
   }
   .thirdsection {
-    width: 640px;
+    width: 340px;
     padding: 5px;
-    font-size: 18px;
+    font-size: 13px;
   }
   .thirdsection .whiteline {
     position: absolute;
-    left: 260px;
+    left: 120px;
     top: 100px;
   }
   .thirdsection .blueline {
     position: absolute;
-    left: 300px;
+    left: 160px;
     top: 100px;
   }
   .fourthsection {
-    width: 640px;
+    width: 340px;
+    position: relative;
   }
-  .fourthsection .photo {
-    padding-left: 100px;
+  .fourthsection .container .photo {
+    width: 210px;
+    height: 190px;
+    margin: 0 0 0 70px;
   }
-  .fourthsection .content {
-    padding-left: 25px;
+  .fourthsection .container .content {
+    width: 300px;
+    padding-left: 10px;
+  }
+  .fourthsection .container .content h3 {
+    font-size: 30px;
+  }
+  .fourthsection .container .content p {
+    font-size: 12px;
+  }
+  .fourthsection .container .card {
+    padding-left: 8px;
+    width: 327px;
+  }
+  .fourthsection .container .card p {
+    font-size: 13px;
+    position: absolute;
+    left: 8px;
+    top: 5spx;
+  }
+  .fourthsection .container .card .firsticon {
+    position: absolute;
+    left: 100px;
+  }
+  .fourthsection .container .card .secondicon {
+    position: absolute;
+    left: 80px;
+    top: 20px;
+  }
+  .fourthsection .container .card .thirdicon {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+  }
+  .fourthsection .container .card .card-body {
+    font-size: 13px;
   }
 }/*# sourceMappingURL=style.css.map */
