@@ -25,17 +25,18 @@ header .container .get_started:hover {
 @media (max-width: 576px) {
   header {
     position: fixed;
-    width: 590px;
+    width: 500px;
   }
 }
 .firstsection {
   background-color: #37517e;
+  height: 520px;
 }
 .firstsection h1 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  margin: 0 0 10px 0;
+  margin: 100px 0 10px 0;
 }
 .firstsection h2 {
   color: rgba(255, 255, 255, 0.6);
@@ -65,22 +66,28 @@ header .container .get_started:hover {
 .firstsection .computer {
   width: 550px;
   height: 450px;
+  margin-top: 80px;
 }
 
 @media (max-width: 768px) {
+  .firstsection {
+    height: 600px;
+  }
   .firstsection .arsha {
     display: flex;
     flex-direction: column-reverse;
   }
   .firstsection .arsha .computer {
-    height: 230px;
-    width: 280px;
+    height: 280px;
+    width: 330px;
     margin-left: 100px;
+    margin-top: 80px;
   }
   .firstsection .arsha .better_solutions h1 {
     font-size: 20px;
     text-align: center;
     margin-bottom: 1px;
+    margin-top: 20px;
   }
   .firstsection .arsha .better_solutions h2 {
     font-size: 12px;
@@ -95,17 +102,16 @@ header .container .get_started:hover {
 }
 @media (max-width: 576px) {
   .firstsection {
-    width: 590px;
     height: 670px;
   }
   .firstsection .container {
     padding-top: 50px;
   }
   .firstsection .container .computer {
-    height: 420px;
-    width: 460px;
-    margin-left: 30px;
-    margin-top: 30px;
+    height: 300px;
+    width: 340px;
+    margin-left: 60px;
+    margin-top: 40px;
   }
   .firstsection .container .better_solutions h1 {
     font-size: 30px;
@@ -116,7 +122,7 @@ header .container .get_started:hover {
     font-size: 18px;
   }
   .firstsection .container .better_solutions .play_button img {
-    margin-left: 150px;
+    margin-left: 110px;
   }
 }
 .secondsection {
@@ -223,7 +229,7 @@ header .container .get_started:hover {
   padding-right: 10px;
 }
 .fourthsection .container .card h5 button .firsticon {
-  padding-left: 200px;
+  padding-left: 210px;
 }
 .fourthsection .container .card h5 button .firsticon:hover {
   color: #47b2e4;
@@ -243,6 +249,282 @@ header .container .get_started:hover {
 .fourthsection .container .photo {
   width: 560px;
   height: 415px;
+}
+
+.fifthsection .container {
+  height: 520px;
+}
+.fifthsection .container img {
+  height: 330px;
+  width: 540px;
+  margin-top: 100px;
+}
+.fifthsection .container .skill {
+  margin-top: 60px;
+}
+.fifthsection .container h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  width: 500px;
+}
+.fifthsection .container p {
+  font-style: italic;
+}
+.fifthsection .container .barWrapper {
+  background: none;
+  padding-top: 20px;
+}
+.fifthsection .container .barWrapper span {
+  color: #37517e;
+  font-weight: 700;
+  font-size: 12px;
+}
+.fifthsection .container .barWrapper span i {
+  font-style: normal;
+  float: right;
+}
+.fifthsection .container .barWrapper .progress {
+  background-color: #e8edf5;
+  height: 10px;
+}
+.fifthsection .container .barWrapper .progress .progress-bar {
+  height: 10px;
+  background-color: #4668a2;
+}
+
+.sixthsection {
+  background-color: #f3f5fa;
+}
+.sixthsection .container {
+  height: 530px;
+}
+.sixthsection .container .section_title {
+  text-align: center;
+  padding-top: 60px;
+  position: relative;
+  font-family: "Jost", sans-serif;
+}
+.sixthsection .container .section_title h2 {
+  color: #37517e;
+  font-weight: bold;
+}
+.sixthsection .container .section_title .whiteline {
+  width: 100px;
+  height: 1px;
+  background: #ddd;
+  position: absolute;
+  left: 500px;
+}
+.sixthsection .container .section_title .blueline {
+  width: 40px;
+  height: 2px;
+  background: #47b2e4;
+  position: absolute;
+  left: 530px;
+}
+.sixthsection .container .section_title p {
+  padding: 35px 0 10px 0;
+  font-size: 18px;
+  color: #444444;
+}
+.sixthsection .container .icon_box {
+  border: white;
+  background-color: white;
+  height: 250px;
+  padding: 50px 30px;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 0.4s;
+}
+.sixthsection .container .icon_box:hover {
+  margin-top: 8px;
+}
+.sixthsection .container .icon_box h4 {
+  padding-top: 15px;
+  font-weight: 500;
+  font-size: 24px;
+  color: #37517e;
+}
+.sixthsection .container .icon_box h4:hover {
+  color: #47b2e4;
+}
+.sixthsection .container .icon_box p {
+  font-size: 14px;
+  line-height: 24px;
+  width: 200px;
+  color: #444444;
+}
+
+.seventhsection {
+  background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url(https://bootstrapmade.com/demo/templates/Arsha/assets/img/cta-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 120px 0;
+}
+.seventhsection h3 {
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+}
+.seventhsection p {
+  color: white;
+}
+.seventhsection a {
+  border: 2px solid white;
+  color: white;
+  border-radius: 50px;
+  margin-left: 20px;
+  padding: 15px 40px;
+  text-decoration: none;
+  font-weight: 500;
+}
+.seventhsection a:hover {
+  border: #47b2e4;
+  background-color: #47b2e4;
+}
+
+.eighthsection .container {
+  margin-bottom: 240px;
+}
+.eighthsection .container .section_title {
+  text-align: center;
+  padding-top: 60px;
+  font-family: "Jost", sans-serif;
+}
+.eighthsection .container .section_title h2 {
+  color: #37517e;
+  font-weight: bold;
+}
+.eighthsection .container .section_title .whiteline {
+  width: 100px;
+  height: 1px;
+  background: #ddd;
+  position: absolute;
+  left: 620px;
+}
+.eighthsection .container .section_title .blueline {
+  width: 40px;
+  height: 2px;
+  background: #47b2e4;
+  position: absolute;
+  left: 650px;
+}
+.eighthsection .container .section_title p {
+  padding: 35px 0 10px 0;
+  font-size: 18px;
+  color: #444444;
+}
+.eighthsection .container #portfolio-filters {
+  list-style: none;
+  margin-bottom: 20px;
+}
+.eighthsection .container #portfolio-filters li {
+  cursor: pointer;
+  display: inline-block;
+  margin: 10px 5px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1;
+  color: #444444;
+  transition: all 0.3s;
+  padding: 8px 20px;
+  border-radius: 50px;
+}
+.eighthsection .container #portfolio-filters li:hover {
+  background: #47b2e4;
+  color: #fff;
+}
+.eighthsection .container #portfolio-filters .filter-active {
+  background: #47b2e4;
+  color: #fff;
+}
+.eighthsection .container .portfolio_info {
+  display: none;
+}
+.eighthsection .container .portfolio:hover .portfolio_info {
+  display: block;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+  z-index: 3;
+  right: 15px;
+  transition: all 0.3s;
+  background: rgba(55, 81, 126, 0.8);
+  padding: 10px 15px;
+  height: 60px;
+}
+.eighthsection .container .portfolio:hover .portfolio_info h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 0px;
+}
+.eighthsection .container .portfolio:hover .portfolio_info p {
+  font-size: 14px;
+  color: #f9fcfe;
+}
+.eighthsection .container .portfolio:hover .portfolio_info .links {
+  position: absolute;
+  top: 16px;
+  right: 12px;
+}
+.eighthsection .container .portfolio:hover .portfolio_info .links img {
+  padding: 5px;
+}
+.eighthsection .container .portfolio .portfolio_info_coffee {
+  position: absolute;
+  top: 176px;
+}
+.eighthsection .container .portfolio .portfolio_info_flower {
+  position: absolute;
+  top: 140px;
+}
+.eighthsection .container .portfolio .chair {
+  margin-top: 30px;
+}
+.eighthsection .container .portfolio .light {
+  width: 350px;
+  position: absolute;
+  bottom: 118px;
+}
+.eighthsection .container .portfolio .portfolio_info_light {
+  position: absolute;
+  top: 375px;
+}
+.eighthsection .container .portfolio .glasses {
+  position: absolute;
+  bottom: 425px;
+}
+.eighthsection .container .portfolio .portfolio_info_glasses {
+  position: absolute;
+  top: 65px;
+}
+.eighthsection .container .portfolio .camera {
+  position: absolute;
+  bottom: 150px;
+  left: 16px;
+}
+.eighthsection .container .portfolio .portfolio_info_camera {
+  position: absolute;
+  top: -210px;
+  left: 700px;
+  width: 380px;
+}
+.eighthsection .container .portfolio .watch {
+  position: absolute;
+  top: -80px;
+  width: 350px;
+}
+.eighthsection .container .portfolio .portfolio_info_watch {
+  position: absolute;
+}
+.eighthsection .container .portfolio .glass {
+  position: absolute;
+  bottom: -138px;
+  left: 775px;
+}
+.eighthsection .container .portfolio .portfolio_info_glass {
+  position: absolute;
+  left: 750px;
 }
 
 @media (max-width: 768px) {
@@ -279,54 +561,113 @@ header .container .get_started:hover {
     position: absolute;
     left: 265px;
   }
+  .fifthsection {
+    height: 1000px;
+  }
+  .sixthsection .container {
+    height: 1430px;
+  }
+  .sixthsection .container .icon_box {
+    margin: 10px;
+  }
+  .seventhsection {
+    text-align: center;
+  }
+  .eighthsection .portfolio .curology {
+    height: 520px;
+  }
+  .eighthsection .portfolio .coffee {
+    position: absolute;
+    top: 10px;
+  }
+  .eighthsection .portfolio .flower {
+    position: absolute;
+    top: 400px;
+  }
+  .eighthsection .portfolio .light {
+    position: absolute;
+    top: 1130px;
+    width: 350px;
+    height: 600px;
+  }
+  .eighthsection .portfolio .camera {
+    position: absolute;
+    top: 2650px;
+  }
+  .eighthsection .portfolio .chair {
+    position: absolute;
+    top: 1710px;
+    height: 900px;
+  }
+  .eighthsection .portfolio .glasses {
+    position: absolute;
+    top: 750px;
+  }
+  .eighthsection .portfolio .watch {
+    position: absolute;
+    top: 3000px;
+  }
+  .eighthsection .portfolio .glass {
+    position: absolute;
+    top: 3000px;
+    right: 50px;
+  }
 }
 @media (max-width: 576px) {
-  .secondsection {
-    width: 590px;
-  }
   .secondsection .container {
-    margin-left: 80px;
+    margin-left: 40px;
   }
   .thirdsection {
-    width: 590px;
     padding: 5px;
     font-size: 15px;
   }
   .thirdsection .whiteline {
     position: absolute;
-    left: 230px;
+    left: 130px;
     top: 100px;
   }
   .thirdsection .blueline {
     position: absolute;
-    left: 270px;
+    left: 165px;
     top: 100px;
   }
   .fourthsection {
-    width: 590px;
     position: relative;
   }
   .fourthsection .container .photo {
-    width: 450px;
-    height: 490px;
-    margin: 0 0 0 70px;
+    width: 380px;
+    height: 360px;
+    margin: 0 0 40px 60px;
   }
   .fourthsection .container .content {
     padding-left: 15px;
   }
-  .fourthsection .container .card {
-    padding-left: 8px;
+  .fourthsection .container .content h3 {
+    font-size: 33px;
+  }
+  .fourthsection .container .content p {
+    width: 480px;
+    font-size: 15px;
+  }
+  .fourthsection .container .card p {
+    font-size: 13px;
+  }
+  .fourthsection .container .card .card-body {
+    font-size: 13px;
   }
   .fourthsection .container .card .firsticon {
     position: absolute;
     top: 30px;
+    left: 148px;
   }
   .fourthsection .container .card .secondicon {
     position: absolute;
     top: 30px;
+    left: 125px;
   }
   .fourthsection .container .card .thirdicon {
     position: absolute;
     top: 30px;
+    left: 108px;
   }
 }/*# sourceMappingURL=style.css.map */

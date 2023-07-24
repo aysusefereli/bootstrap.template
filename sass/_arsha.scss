@@ -1,11 +1,12 @@
 .firstsection {
     background-color:  #37517e;
+    height: 520px;
 
     h1 {
         font-size: 48px;
         font-weight: 700;
         line-height: 56px;
-        margin: 0 0 10px 0;
+        margin: 100px 0 10px 0;
     }
 
     h2 {
@@ -43,21 +44,24 @@
     .computer {
         width: 550px;
         height: 450px;
+        margin-top: 80px;
     }
 
 }
 
 @media (max-width:768px) {
     .firstsection {
+        height: 600px;
 
         .arsha {
             display: flex;
             flex-direction: column-reverse;
     
             .computer {
-                height: 230px;
-                width: 280px;
+                height: 280px;
+                width: 330px;
                 margin-left: 100px;
+                margin-top: 80px;
             }
 
             .better_solutions {
@@ -65,6 +69,7 @@
                     font-size: 20px;
                     text-align: center;
                     margin-bottom: 1px;
+                    margin-top: 20px;
                 }
 
                 h2 {
@@ -88,17 +93,16 @@
 
 @media (max-width:576px) {
     .firstsection {
-        width: 590px;
         height: 670px;
 
         .container {
             padding-top: 50px;
 
             .computer {
-                height: 420px;
-                width: 460px;
-                margin-left: 30px;
-                margin-top: 30px;
+                height: 300px;
+                width: 340px;
+                margin-left: 60px;
+                margin-top: 40px;
             }
     
             .better_solutions {
@@ -114,7 +118,7 @@
     
                 .play_button {
                     img {
-                        margin-left: 150px;
+                        margin-left: 110px;
                     }
                 }
             }
